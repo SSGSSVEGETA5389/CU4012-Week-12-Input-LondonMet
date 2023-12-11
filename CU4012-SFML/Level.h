@@ -25,5 +25,15 @@ private:
 	Input* input;
 
 	// Add your object here
+	sf::Font font; 
+	sf::Text mousePosition; 
+	int mouseX; 
+	int mouseY;
 
+	sf::Vector2i InitalMousePosition;
+	sf::Vector2i FinalMousePosition;
+
+	sf::CircleShape circle;
+
+	bool dragging;
 };
